@@ -1,0 +1,30 @@
+.blog_section{
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+    background-color: aqua;
+    margin-top: -80px;
+}
+.blogs_title{
+    margin: 1rem 0;
+    font-size: 3rem;
+    /* margin-top: 4rem; */
+}
+.blog_card_container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    /* padding: 100px 50px; */
+    background-color: rgb(50, 50, 50);
+    border-radius: 10px;
+}

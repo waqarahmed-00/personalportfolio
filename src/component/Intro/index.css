@@ -1,0 +1,91 @@
+.intro_secion{
+    width: 100%;
+    height: calc(100vh - 4rem);
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    /* background-color: black; */
+}
+.bg{
+    position: absolute;
+    top: 0rem;
+    right: -250px;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+}
+.intro_text_div{
+    height: 100vh;
+    width: 100%;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.intro_name{
+    color: yellow;
+}
+.intro_para{
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.anchor_tag{
+    width: 140px;
+}
+.hire_me_btn{
+    background-color: white;
+    margin: 1rem 0;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 1s;
+}
+.hire_me_btn:hover{
+    background-color: yellow;
+}
+.btn_img{
+    object-fit: cover;
+    margin: 0 0.25rem;
+}
+
+@media screen and (max-width: 840px ) {
+    .bg{
+        right: -30vw;
+    }
+    .intro_text_div{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+    
+}
+
+@media screen and (max-width: 480px ) {
+    .bg{
+        right: -30vw;
+    }
+}
+
+@media screen and (max-width: 610px ) {
+    /* .bg{
+        right: -300px;
+    } */
+}
+
+@media screen and (max-width: 583px) {
+    .bg{
+        right: -300px;
+    }
+    
+    
+}

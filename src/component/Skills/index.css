@@ -1,0 +1,88 @@
+.skills_section{
+   overflow: hidden;
+   width: 100vw;
+   max-width: 65rem;
+   /* margin: 0; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin: 0 auto;
+}
+.about_me_div{
+    width: 100vw;
+    height: 70px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+}
+.my_skills{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.skills_para_div{
+    /* width: 100%; */
+    max-width: 62rem;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-weight: 200; */
+
+}
+.skill_para{
+    font-size: 1rem;
+    font-weight: 400;
+    padding:  0 2rem;
+    /* letter-spacing: 1px; */
+    /* justify-content: center; */
+    /* text-align: justify; */
+}
+.skills_div{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+.skill_bar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background-color: rgb(50, 50, 50);
+}
+
+.skilss_image{
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+    margin-right: 2rem;
+    /* background-color: aqua; */
+}
+.skill_bar_text>p{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 720px) {
+    .skill_bar_text>p{
+        font-size: 2vw;
+    }
+
+    
+}
+@media screen and (max-width: 380px) {
+    .skilss_image{
+        margin-right: 1rem;
+    } 
+}
+
+/* @media screen and (max-width: 380px) {
+    .skilss_image{
+        margin-right: 1rem;
+    } 
+} */
